@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin Panel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="loginBox" id="login">
+
+<h2>Admin Login</h2>
+
+<input id="user" placeholder="Username">
+<input id="pass" type="password" placeholder="Password">
+
+<button onclick="login()">Login</button>
+
+</div>
+
+<div class="formBox" id="panel" style="display:none;">
+
+<h2>Create Post</h2>
+
+<input id="title" placeholder="Post Title">
+
+<textarea id="content" placeholder="Write Islamic post"></textarea>
+
+<input id="logo" placeholder="Logo URL (optional)">
+
+<input id="image" placeholder="Image URL (optional)">
+
+<button onclick="addPost()">Publish</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
